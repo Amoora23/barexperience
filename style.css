@@ -1,0 +1,145 @@
+body{
+    text-align: center;
+    background-color: #fcfced;
+}
+
+.imgHome .img2 img{
+    width: 44%;
+    height: 300px;
+}
+
+.imgHome .img3 img{
+    width: 33%;
+    height: 300px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1%;
+    margin: 1%;
+}
+
+.imgHomeLarge div h3{
+    padding: 98px;
+}
+
+.imgHomeLarge div{
+    background-size:  100% 100%;
+}
+
+.imgHomeSmall img{
+    width: 19.6%;
+    height: 200px;
+}
+
+.logo{
+    width: 10%
+}
+
+footer{
+    padding: 20px;
+  margin-top: 5px;
+}
+
+nav, footer{
+    background-color: #3c2763;
+}
+
+.nav-link, footer{
+    color:#fff;
+}
+
+.master{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3%;
+    margin: 2%;
+}
+
+.info{
+    margin: 3%;
+}
+
+.imgSite{
+    width: 80%;
+    height: 30vh;
+}
+
+.formSite{
+    text-align: left;
+    margin: 3%;
+}
+
+.faqs{
+    margin: auto;
+    width: 540px;
+}
+
+.thanks{
+    margin: 3% auto ;
+    width: 70%;
+}
+.logoPage{
+      width: 35%;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.imgHomeLarge{
+  color: #fff;
+}
+
+.card img{
+  height: 300px;
+}
+
+.accordion-body{
+  text-align: left;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+.cambio{
+  background-color: #000;
+  color:#fff;
+}
+.cambio .card-body{
+    background-color: #000;
+  color:#fff;
+}
+
+.logoSocial{
+  margin: 5px;
+  height:25px;
+  width: 25px;
+}
+
+.imgMapa{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+}
+
+.nav-especial{
+  position: absolute; 
+  top: 0%; 
+  right: 0%;
+}
+
+/* Responsive*/
+
+
+@media only screen and (max-width: 800px) {
+
+  .grid2, .master{
+    grid-template-columns: 1fr;
+}
+  
+}
+
+
